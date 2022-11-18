@@ -1,6 +1,5 @@
 public class House {
 
-
     public int bedroom;
     public int bathroom;
     public String heating;
@@ -14,18 +13,16 @@ public class House {
         this.bedroom = bedroom;
         this.bathroom = bathroom;
         this.heating = heating;
-
     }
 
     public void heat(){
-
         System.out.println("The house is heated");
     }
 
     public void runCoolingSystem(){
         if (cooling==true){
             System.out.println("Cooling system is working");
-        }else{
+        }else {
             System.out.println("No Cooling System ");
         }
 
